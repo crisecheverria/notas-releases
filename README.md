@@ -8,7 +8,7 @@ Notas is a local-first Markdown notes app for macOS, built with Rust and [GPUI](
 
 1. Download `Notas.dmg` and open it.
 2. Drag **Notas** into **Applications**.
-3. Open Notas. Your notes are stored in `~/Notas` (you can change the folder with the `NOTAS_DIR` environment variable).
+3. Open Notas. Your notes are stored in `~/Notas`. To use another folder, launch Notas from a terminal with `NOTAS_DIR` set, for example `NOTAS_DIR=~/Documents/Notes /Applications/Notas.app/Contents/MacOS/notas`.
 
 Requires macOS 13 or later. The app is a universal build, so it runs on Apple Silicon and Intel Macs.
 
